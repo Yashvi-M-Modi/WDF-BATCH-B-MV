@@ -1,0 +1,25 @@
+ body {
+            background-color: #8faf78;
+            margin: 0;
+        }
+
+        h1 {
+            background-color: #294936;
+            color: white;
+            text-align: center;
+            padding: 50px;
+            font-size: 35px;
+            margin: 0;
+        }
+
+        div {
+            background-color: #294936;
+            color: white;
+            align-self: center;
+            height: auto;
+            width: 50%;
+            align-items: center;
+            margin-left: 25%;
+            text-align: center;
+            margin-top: 5%;
+        }
