@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Programmes</title>
+        <link rel="stylesheet" href = "programmes.css">
+    </head>
+    <body>
+        <header>
+            <h1>PROGRAMMES</h1>
+            <a href="homepage.html"><button type="button">HOME</button></a>
+            <button type="button" id="themeButton" onclick="changetheme()">
+            🌙 Dark Mode
+        </button>
+        </header>
+        <br>
+        <div class="Programmes">
+            <form onsubmit="registerprogrames(event)">
+                <table border="2" cellpadding="10">
+                    <tr>
+                        <th>Select</th>
+                        <th>Course Code</th>
+                        <th>Course Name</th>
+                        <th>Credits</th>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>WDF</td>
+                        <td>Web Development and Frameworks</td>
+                    <td>4</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>OOP</td>
+                        <td>Object Oriented Programing</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>DSA</td>
+                        <td>Data Structure and Algorithm</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>DM</td>
+                        <td>Discrete Mathematics</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>CN</td>
+                        <td>Computer Networks</td>
+                        <td>5</td>
+                    </tr>
+                </table>
+        <br>
+        <div class="button-container">
+            <input type="submit" value="Register" class="button">
+            <input type="reset" value="Drop" class="button">
+        </div>
+    </form>
+    <script src="programes.js"></script>
+    <script src="theme.js"></script>
+    </body>
+</html>

@@ -1,0 +1,109 @@
+
+body{
+background:white;
+font-family:Arial;
+}
+
+section{
+
+width:300px;
+height:300px;
+background:#001f3f;
+
+margin-left:auto;
+margin-right:auto;
+margin-top:120px;
+
+padding:20px;
+
+color:white;
+
+}
+
+h1{
+
+text-align:center;
+
+}
+
+input{
+
+width:280px;
+
+height:30px;
+
+margin-top:8px;
+
+margin-bottom:15px;
+
+}
+
+button{
+
+width:100px;
+
+height:35px;
+
+background:white;
+
+color:#001f3f;
+
+border:1px solid #001f3f;
+
+margin-left:90px;
+
+}
+
+button:hover{
+
+background:white;
+}
+.dark {
+    background-color: #121212;
+    color: white;
+}
+
+.dark header {
+    background-color: #000000;
+}
+
+.dark nav {
+    background-color: #1f1f1f;
+}
+
+.dark nav a {
+    color: white;
+}
+
+.dark section {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.dark .card {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.dark p {
+    color: white;
+}
+
+.dark table {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.dark th {
+    background-color: #333333;
+    color: white;
+}
+
+.dark td {
+    color: white;
+}
+
+.dark footer {
+    background-color: #000000;
+    color: white;
+}
