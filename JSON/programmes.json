@@ -1,0 +1,27 @@
+[
+    {
+        "code": "WDF",
+        "Name": "Web Development and Frameworks",
+        "credits": 4
+    },
+    {
+        "code": "FCN",
+        "Name": "Fundamentals of Computer Network",
+        "credits": 5
+    },
+    {
+        "code": "OOP",
+        "Name": "Object Oriented Programming",
+        "credits": 5
+    },
+    {
+        "code": "DM",
+        "Name": "Discrete Mathematics",
+        "credits": 4
+    },
+    {
+        "code": "FDSA",
+        "Name": "Fundamentals of Data Structure and Algorithm",
+        "credits": 3
+    }
+]
