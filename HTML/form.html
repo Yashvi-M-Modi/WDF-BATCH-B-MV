@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form for Registration</title>
+    <link rel="stylesheet" href="../CSS/form.css">
+</head>
+
+<body>
+    <header>
+        <h1>Register for Student Hub Portal</h1>
+    </header>
+    <main>
+        <form id="registration" onsubmit="return validateform()">
+            <label for="firstname">First Name: </label>
+            <input type="text" id = "firstname" required>
+            <label for="middlename">Middle Name: </label>
+            <input type="text" id = "middlename" required>
+            <label for="lastname">Last Name: </label>
+            <input type="text" id = "lastname" required>
+            <br><br>
+            <label for="email">Email: </label>
+            <input type="email" id="email" required>
+            <label for="mobile">Mobile Number: </label>
+            <input type="number" id="mobile" required>
+            <br><br>
+            <label for="password">Password: </label>
+            <input type="password" id="password" required>
+            <label for="confirm">Confirm Password: </label>
+            <input type="password" id="confirm" required>
+            <br><br>
+            <label for="course">Course: </label>
+            <select id="course" required>
+                <option value="">Select your Course</option>
+                <option value="BCA">Bachelors of Computor Application</option>
+                <option value="BBA">Bachelors of Buisness Studies</option>
+                <option value="BSc">Bachelors of Science</option>
+                <option value="BCom">Bachelors of Commerce</option>
+                <option value="BTech">Bachelors of Technology</option>
+            </select>
+            <br>
+            <label>Gender:</label>
+
+            <div class="gender">
+                <input type="radio" name="gender" value="Male"> Male
+                <input type="radio" name="gender" value="Female"> Female
+                <input type="radio" name="gender" value="Other"> Other
+            </div>
+            <br>
+            <div>
+                <input type="checkbox" id="terms">
+                <label for="terms">I accept the terms and conditions</label>
+            </div>
+            <br>
+            <p id="error"></p>
+            <button type="submit">Register</button>
+            <button type="reset">Cancel</button>
+        </form>
+    </main>
+
+    <script src="form.js"></script>
+</body>
+
+</html>

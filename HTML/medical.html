@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MEDICAL LEAVE APPLICATION</title>
+        <link rel="stylesheet" href="../CSS/medical.css">
+    </head>
+    <body>
+        <header>
+            <h1>MEDICAL LEAVE APPLICATION</h1>
+            <button type="button" id="themeButton" onclick="changetheme()">
+            🌙 Dark Mode
+        </button>
+        </header>  
+        <nav>
+            <a href = "homepage.html"> HOME </a>
+            <a href = "studentcorner.html">STUDENT CORNER</a>
+            <a href = "programmes.html">PROGRAMMES</a>
+            <a href = "aboutus.html">ABOUT US</a>
+        </nav>
+        <div class = "parta">
+        <h3>PART A: General Information</h3>
+        <label>From Date:</label>
+        <input type="date">
+        <label>To Date:</label>
+        <input type="date">
+        <br>
+        <label>Reason for absence:</label><br>
+        <textarea rows=10 cols="50"></textarea>
+    </div>
+    <div class = "partb">
+        <h3>PART B: Doctor Information</h3>
+        <label>Doctor Name: </label>
+        <input type="text" name="Doctor">
+        <label>City of the Doctor: </label>
+        <input type="text" name="city">
+        <br><br>
+        <label>Contact No.: </label>
+        <input type="number" name="number">
+        <label>Email ID: </label>
+        <input type="text" name="email">
+        <div class = "button-container">
+            <button type = "submit">Submit</button>
+            <button type = "reset">Cancel</button>
+        </div>
+    </div>
+    <footer>
+            <p>© 2026 Student Hub Portal</p>
+    </footer>
+    <script src="../JS/theme.js"></script>
+    </body>
+</html>

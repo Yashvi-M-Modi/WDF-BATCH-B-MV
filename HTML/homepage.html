@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Student Hub</title>
+        <link rel="stylesheet" href="../CSS/homepage.css">
+    </head>
+    <body>
+        <header>
+            <h1>STUDENT HUB PORTAL</h1>
+            <button type="button" id="themeButton" onclick="changetheme()">
+            🌙 Dark Mode
+        </button>
+            <a href ="login.html">
+                <button type = "button" onclick="logout(event)">Log Out</button>
+            </a>
+        </header>
+        <nav>
+            <a href = "homepage.html"> HOME </a>
+            <a href = "studentcorner.html">STUDENT CORNER</a>
+            <a href = "programmes.html">PROGRAMMES</a>
+            <a href = "aboutus.html">ABOUT US</a>
+        </nav>
+        <div class="slider">
+            <img id="slide" src="image1.jpg" alt="Student Hub">
+            <button class="previous" onclick="previousSlide()">❮</button>
+            <button class="next" onclick="nextSlide()">❯</button>
+        </div>
+
+        <section class = "Welcome">
+            <h2>WELCOME TO STUDENT HUB PORTAL</h2>
+            <p>Your Ultimate stop for acaedaemic information, student services
+                and campus resources.
+            </p>
+        </section>
+        
+        <audio controls>
+            <source src="song.mp3"
+            type="audio/mpeg">
+        </audio>
+        <footer>
+            <p>© 2026 Student Hub Portal</p>
+        </footer>
+        <script src="slider.js"></script>
+        <script src="../JS/logout.js"></script>
+        <script src="../JS/theme.js"></script>
+    </body>
+</html>

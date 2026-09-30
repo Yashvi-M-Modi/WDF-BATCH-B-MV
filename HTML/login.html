@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="login.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="login">
+        <div class="left">
+            <h1>STUDENT HUB</h1>
+            <p>Welcome back!</p>
+            <p>Login to continue to your Student Hub Portal.</p>
+        </div>
+        <div class="right">
+            <h1>Login</h1>
+            <form action="homepage.html" onsubmit="validateform(event)">
+                <label>Username</label>
+                <input type="text" id="Id">
+                <label>Password</label>
+                <input type="password" id="Password">
+                <button type="submit">Login</button>
+                <p>Don't have an account?</p>
+                <a href="form.html">Register</a>
+            </form>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>
