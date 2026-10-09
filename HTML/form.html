@@ -10,27 +10,38 @@
     <header>
         <h1>Register for Student Hub Portal</h1>
     </header>
+
     <main>
-        <form id="registration" onsubmit="return validateform()">
+        <form id="registration" action="data.php" method="post" onsubmit="return validateform()">
             <label for="firstname">First Name: </label>
-            <input type="text" id = "firstname" required>
+            <input type="text" id="firstname" name="firstname" required>
+
             <label for="middlename">Middle Name: </label>
-            <input type="text" id = "middlename" required>
+            <input type="text" id="middlename" name="middlename" required>
+
             <label for="lastname">Last Name: </label>
-            <input type="text" id = "lastname" required>
+            <input type="text" id="lastname" name="lastname" required>
+
             <br><br>
+
             <label for="email">Email: </label>
-            <input type="email" id="email" required>
+            <input type="email" id="email" name="email" required>
+
             <label for="mobile">Mobile Number: </label>
-            <input type="number" id="mobile" required>
+            <input type="number" id="mobile" name="mobile" required>
+
             <br><br>
+
             <label for="password">Password: </label>
-            <input type="password" id="password" required>
+            <input type="password" id="password" name="password" required>
+
             <label for="confirm">Confirm Password: </label>
-            <input type="password" id="confirm" required>
+            <input type="password" id="confirm" name="confirm" required>
+
             <br><br>
+
             <label for="course">Course: </label>
-            <select id="course" required>
+            <select id="course" name="course" required>
                 <option value="">Select your Course</option>
                 <option value="BCA">Bachelors of Computor Application</option>
                 <option value="BBA">Bachelors of Buisness Studies</option>
@@ -38,7 +49,9 @@
                 <option value="BCom">Bachelors of Commerce</option>
                 <option value="BTech">Bachelors of Technology</option>
             </select>
+
             <br>
+
             <label>Gender:</label>
 
             <div class="gender">
@@ -46,13 +59,18 @@
                 <input type="radio" name="gender" value="Female"> Female
                 <input type="radio" name="gender" value="Other"> Other
             </div>
+
             <br>
+
             <div>
-                <input type="checkbox" id="terms">
+                <input type="checkbox" id="terms" name="terms">
                 <label for="terms">I accept the terms and conditions</label>
             </div>
+
             <br>
+
             <p id="error"></p>
+
             <button type="submit">Register</button>
             <button type="reset">Cancel</button>
         </form>
