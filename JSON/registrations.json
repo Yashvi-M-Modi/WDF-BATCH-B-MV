@@ -1,0 +1,117 @@
+[
+    {
+        "firstname": "yashvi",
+        "middlename": "m",
+        "lastname": "modi",
+        "email": "25dit036@charusat.edu.in",
+        "mobile": "7621018090",
+        "password": "$2y$10$uE.z0lj2EGKVBOcJK4rk1.guw86F.9PwzFAqbZbQqeVdy5eeUAH3G",
+        "course": "BBA",
+        "gender": "Female"
+    },
+    {
+        "firstname": "yashvi",
+        "middlename": "m",
+        "lastname": "modi",
+        "email": "yashvimmodi07@gmail.com",
+        "mobile": "9979879722",
+        "password": "$2y$10$HYsdeaYAGFhxO0OJxhNub.xwnnjUGLlAxYhoYHs.PrOepXowsezx2",
+        "course": "BCA",
+        "gender": "Female"
+    },
+    {
+        "firstname": "dhruvin",
+        "middlename": "p",
+        "lastname": "patel",
+        "email": "yashvimmodi07@gmail.com",
+        "mobile": "9706504549",
+        "password": "$2y$10$dBO0N2NTyuU1swUOL6RR7O9jcsNs5Yid4l0ityzKE2yTkAzGHoV4m",
+        "course": "BBA",
+        "gender": "Male"
+    },
+    {
+        "firstname": "VAISHVI",
+        "middlename": "M",
+        "lastname": "MODI",
+        "email": "vaishvimmodi20@gmail.com",
+        "mobile": "9725151825",
+        "password": "$2y$10$8PFzAF8hMv2rtxZGKdVen.fnhj8TkVGA.JKN57E2E4yQtUBAcpbuW",
+        "course": "BCA",
+        "gender": "Female"
+    },
+    {
+        "firstname": "Mitesh",
+        "middlename": "M",
+        "lastname": "Modu",
+        "username": "25dit036",
+        "email": "25dit036@charusat.edu.in",
+        "mobile": "9979879722",
+        "password": "$2y$10$8vBJSXQWjdaf3QuYcD2nM.NwxX0xqoc0YO3nwY/x72Vazt5FrRyPG",
+        "course": "BBA",
+        "gender": "Male",
+        "registration_date": "2026-10-13 14:27:18"
+    },
+    {
+        "firstname": "Dhruvin",
+        "middlename": "P",
+        "lastname": "Patel",
+        "username": "25me062",
+        "email": "25me062@charusat.edu.in",
+        "mobile": "7621018090",
+        "password": "$2y$10$6LjTxGlbsxKRsXVLM5XvXuHkZqZCDe43RjyHrjk3jb6teVVt9fcee",
+        "course": "BCom",
+        "gender": "Male",
+        "registration_date": "2026-10-13 14:30:54"
+    },
+    {
+        "firstname": "Yashvi",
+        "middlename": "M",
+        "lastname": "Modi",
+        "username": "yashvimmodi",
+        "email": "yashvimmodi07@gmail.com",
+        "mobile": "7621018090",
+        "password": "$2y$10$XOtGV7VwtYbD9EN4OfdJH.LHvAXDX6kcA0lYL.ZwPvwjbxAON9a.q",
+        "course": "BCA",
+        "gender": "Female",
+        "registration_date": "2026-10-20 15:27:22"
+    },
+    {
+        "registration_id": 3,
+        "firstname": "yashvi",
+        "middlename": "M",
+        "lastname": "Modi",
+        "username": "yashvimmodi",
+        "email": "25dit036@charusat.edu.in",
+        "mobile": "7621018090",
+        "course": "BCA",
+        "gender": "Female",
+        "role": "student",
+        "registration_date": "2026-10-22 08:08:35"
+    },
+    {
+        "registration_id": 4,
+        "firstname": "Dhruvin",
+        "middlename": "P",
+        "lastname": "Patel",
+        "username": "dhruvin",
+        "email": "25me062@charusat.edu.in",
+        "mobile": "9979879722",
+        "course": "BCA",
+        "gender": "Male",
+        "role": "student",
+        "registration_date": "2026-10-22 08:11:27"
+    },
+    {
+        "registration_id": 5,
+        "firstname": "DIT",
+        "middlename": "YASHVI",
+        "lastname": "MODI",
+        "username": "it25dit036",
+        "email": "yashvimmodi07@gmail.com",
+        "mobile": "7621018090",
+        "course": "BCA",
+        "gender": "Female",
+        "role": "student",
+        "registration_date": "2026-10-22 08:12:15"
+    }
+]

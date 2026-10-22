@@ -1,0 +1,68 @@
+[
+    {
+        "teacher": "Ms. Radhika Patel",
+        "subject": "Fundamentals of Computer Networks",
+        "code": "FCN",
+        "type": "lecture"
+    },
+    {
+        "teacher": "Mr. Jay Patel",
+        "subject": "Fundamentals of Computer Networks",
+        "code":"FCN",
+        "type":"practical"
+    },
+    {
+        "teacher": "Mr. Jalpesh Vasa",
+        "subject": "Web Development and Fundamentals",
+        "code": "WDF",
+        "type": "lecture"
+    },
+    {
+        "teacher": "Mr. Vaibhav Matalia",
+        "subject": "Web Development and Fundamentals",
+        "code": "WDF",
+        "type": "lecture"
+    },
+    {
+        "teacher": "Mr. Sachin Patel",
+        "subject": "Fundamentals of Data Structure and Algorithm",
+        "code": "FDSA",
+        "type": "practical"
+    },
+    {
+        "teacher": "Ms. Neeta Chudasma",
+        "subject": "Web Development and Fundamentals",
+        "code": "WDF",
+        "type":"practical"
+    },
+    {
+        "teacher": "Ms. Mansi Valand",
+        "subject":"Web Development and Fundamentals",
+        "code": "WDF",
+        "type": "practical"
+    },
+    {
+        "teacher": "Dr. Deven Gol",
+        "subject": "Object Oriented Programming",
+        "code": "OOP",
+        "type": "lecture"
+    },
+    {
+        "teacher": "Ms. Vidhi Parikh",
+        "subject": "Object Oriented Programming",
+        "code": "OOP",
+        "type": "practical"
+    },
+    {
+        "teacher": "Dr. Rajesh Savaliya",
+        "subject": "Discrete Mathematics",
+        "code": "DM",
+        "type": "lecture"
+    },
+    {
+        "teacher": "Mr. Viral Panara",
+        "subject": "Creative thinking and Problem Solving",
+        "code": "HSUV",
+        "type":"practical"
+    }
+]
