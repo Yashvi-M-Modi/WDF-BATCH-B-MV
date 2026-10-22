@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Feedback</title>
+    <link rel="stylesheet" href="../CSS/feedback.css">
+</head>
+<body>
+    <header>
+        <h1>FEEDBACK</h1>
+        <button type="button" id="themeButton" onclick="changetheme()">
+            🌙 Dark Mode
+        </button>
+    </header>
+    <nav>
+        <a href="homepage.html"> HOME </a>
+        <a href="studentcorner.html">STUDENT CORNER</a>
+        <a href="programmes.html">PROGRAMMES</a>
+        <a href="aboutus.html">ABOUT US</a>
+    </nav>
+    <div class="feedback">
+        <form>
+            <label>Name:</label>
+            <input type="text" id="name" required>
+            <br><br>
+            <label>Enrollment No:</label>
+            <input type="text" id="enrollment" required>
+            <br><br>
+            <label>Teacher:</label>
+            <select id="teacher">
+            </select>
+            <br><br>
+            <label>Feedback:</label>
+            <input type="radio" name="Feedback" value="Excellent"> Excellent
+            <input type="radio" name="Feedback" value="Good"> Good
+            <input type="radio" name="Feedback" value="Average"> Average
+            <br><br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Clear">
+        </form>
+    </div>
+    <script src="../JS/feedback.js"></script>
+    <script src="../JS/theme.js"></script>
+</body>
+</html>

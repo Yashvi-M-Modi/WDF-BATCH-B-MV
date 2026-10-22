@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form for Registration</title>
+    <link rel="stylesheet" href="../CSS/form.css">
+</head>
+<body>
+    <header>
+        <h1>Register for Student Hub Portal</h1>
+    </header>
+
+    <main>
+        <form id="registration" action="data.php" method="post" onsubmit="return validateform()">
+            <label for="firstname">First Name:</label>
+            <input type="text" id="firstname" name="firstname" required>
+
+            <label for="middlename">Middle Name:</label>
+            <input type="text" id="middlename" name="middlename" required>
+
+            <label for="lastname">Last Name:</label>
+            <input type="text" id="lastname" name="lastname" required>
+
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" minlength="3" maxlength="20" required>
+
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mobile">Mobile Number:</label>
+            <input type="tel" id="mobile" name="mobile" maxlength="10" required>
+
+            <br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="confirm">Confirm Password:</label>
+            <input type="password" id="confirm" name="confirm" required>
+
+            <br><br>
+            
+<label for="role">Account Type</label>
+<select id="role" name="role" disabled>
+    <option value="student" selected>Student</option>
+</select>
+
+            <label for="course">Course:</label>
+            <select id="course" name="course" required>
+                <option value="">Select your Course</option>
+                <option value="BCA">Bachelors of Computer Application</option>
+                <option value="BBA">Bachelors of Business Studies</option>
+                <option value="BSc">Bachelors of Science</option>
+                <option value="BCom">Bachelors of Commerce</option>
+                <option value="BTech">Bachelors of Technology</option>
+            </select>
+
+            <br><br>
+
+            <label>Gender:</label>
+            <div class="gender">
+                <label><input type="radio" name="gender" value="Male" required> Male</label>
+                <label><input type="radio" name="gender" value="Female"> Female</label>
+                <label><input type="radio" name="gender" value="Other"> Other</label>
+            </div>
+
+            <br>
+
+            <div>
+                <input type="checkbox" id="terms" name="terms" required>
+                <label for="terms">I accept the terms and conditions</label>
+            </div>
+
+            <br>
+
+            <p id="error"></p>
+
+            <button type="submit">Register</button>
+            <button type="reset">Cancel</button>
+        </form>
+    </main>
+
+    <script src="form.js"></script>
+</body>
+</html>

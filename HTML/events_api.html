@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudentHub - Event API</title>
+
+    <link rel="stylesheet" href="../CSS/events_api.css">
+    <script src="../JS/events_api.js" defer></script>
+</head>
+<body>
+
+<header>
+    <h1>STUDENT HUB PORTAL</h1>
+    <p>Admin Event Management</p>
+</header>
+
+<main>
+    <section class="form-section">
+        <h2 id="formHeading">Add New Event</h2>
+
+        <form id="eventForm">
+            <label for="title">Event Title *</label>
+            <input type="text" id="title" maxlength="200" required>
+
+            <label for="description">Description</label>
+            <textarea id="description" rows="3" maxlength="10000"></textarea>
+
+            <label for="event_date">Event Date *</label>
+            <input type="date" id="event_date" required>
+
+            <label for="event_time">Event Time *</label>
+            <input type="time" id="event_time" required>
+
+            <label for="venue">Venue *</label>
+            <input type="text" id="venue" maxlength="200" required>
+
+            <div class="form-buttons">
+                <button type="submit" id="saveBtn">Add Event</button>
+                <button type="button" id="cancelBtn" hidden>Cancel Edit</button>
+            </div>
+        </form>
+
+        <p id="message" role="status" aria-live="polite"></p>
+    </section>
+
+    <section class="events-section">
+        <div class="section-heading">
+            <h2>All Events</h2>
+            <button type="button" id="refreshBtn">Refresh Events</button>
+        </div>
+
+        <p id="loadingMessage" role="status"></p>
+
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Title</th>
+                        <th>Description</th>
+                        <th>Date</th>
+                        <th>Time</th>
+                        <th>Venue</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+
+                <tbody id="eventsTable">
+                    <tr>
+                        <td colspan="7">Loading events...</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>StudentHub Portal | Event Management</p>
+</footer>
+
+</body>
+</html>
