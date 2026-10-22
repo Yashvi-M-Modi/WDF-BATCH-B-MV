@@ -1,0 +1,161 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background: #F0F4F8;
+    color: #222;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 8px;
+}
+
+h1 {
+    color: #001f3f;
+}
+
+.top-links {
+    margin: 15px 0;
+}
+
+.button,
+button {
+    display: inline-block;
+    padding: 10px 14px;
+    margin: 4px 3px 4px 0;
+    background: #004b87;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.button:hover,
+button:hover {
+    background: #00345f;
+}
+
+.secondary {
+    background: #666;
+}
+
+.filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 6px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+.filters input,
+.filters select {
+    flex: 1;
+    min-width: 180px;
+    margin: 0;
+}
+
+.table-wrapper {
+    width: 100%;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th,
+td {
+    padding: 11px;
+    border: 1px solid #ddd;
+    text-align: left;
+    overflow-wrap: anywhere;
+}
+
+th {
+    background: #004b87;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background: #f5f7fa;
+}
+
+td a {
+    color: #004b87;
+    margin-right: 8px;
+}
+
+.delete-form {
+    display: inline;
+}
+
+.delete-button {
+    background: #b22222;
+    padding: 7px 9px;
+}
+
+.message {
+    padding: 10px;
+    background: #e8f4ff;
+    border: 1px solid #b8d9f5;
+    border-radius: 4px;
+    overflow-wrap: anywhere;
+}
+
+.form-container {
+    max-width: 550px;
+}
+
+.form-container label {
+    display: block;
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    .container {
+        margin: 10px auto;
+        padding: 15px;
+    }
+
+    .filters {
+        flex-direction: column;
+    }
+
+    .filters input,
+    .filters select {
+        width: 100%;
+    }
+
+    th,
+    td {
+        padding: 8px;
+        font-size: 13px;
+    }
+}

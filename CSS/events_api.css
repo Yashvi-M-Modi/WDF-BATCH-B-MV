@@ -1,0 +1,191 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #F0F4F8;
+    color: #222;
+}
+
+header {
+    background: #001f3f;
+    color: white;
+    text-align: center;
+    padding: 22px 15px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 26px;
+}
+
+header p {
+    margin-bottom: 0;
+}
+
+main {
+    width: 95%;
+    max-width: 1200px;
+    margin: 25px auto;
+}
+
+.form-section,
+.events-section {
+    background: white;
+    padding: 22px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+h2 {
+    color: #001f3f;
+    margin-top: 0;
+}
+
+form label {
+    display: block;
+    margin-top: 14px;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    font: inherit;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input:focus,
+textarea:focus {
+    outline: 2px solid #0074cc;
+    border-color: #0074cc;
+}
+
+button {
+    padding: 10px 14px;
+    border: none;
+    border-radius: 5px;
+    background: #004b87;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 4px 3px 4px 0;
+}
+
+button:hover {
+    background: #00345f;
+}
+
+button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.form-buttons {
+    margin-top: 15px;
+}
+
+#cancelBtn {
+    background: #666;
+}
+
+.edit-btn {
+    background: #167547;
+}
+
+.delete-btn {
+    background: #b42318;
+}
+
+.section-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    min-width: 850px;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 11px;
+    text-align: left;
+    overflow-wrap: anywhere;
+}
+
+th {
+    background: #004b87;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background: #f5f8fb;
+}
+
+.success {
+    color: #167547;
+    font-weight: bold;
+}
+
+.error {
+    color: #b42318;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #001f3f;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 21px;
+    }
+
+    main {
+        width: 96%;
+        margin: 12px auto;
+    }
+
+    .form-section,
+    .events-section {
+        padding: 14px;
+    }
+
+    .section-heading {
+        align-items: flex-start;
+    }
+
+    .section-heading h2 {
+        margin-bottom: 5px;
+    }
+
+    button {
+        padding: 10px 12px;
+    }
+}

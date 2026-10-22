@@ -1,0 +1,267 @@
+body {
+
+    background-color: #F0F4F8;
+
+    margin: 0;
+
+}
+
+header {
+
+    background-color: #001f3f;
+
+    color: #F0F4F8;
+
+    padding: 1.5%;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+}
+
+nav {
+
+    background-color: #004b87;
+
+    color: #F0F4F8;
+
+    padding: 30px;
+
+    text-align: center;
+
+}
+
+nav a {
+
+    color: #F0F4F8;
+
+    text-decoration: none;
+
+    font-size: 17px;
+
+    text-align: center;
+
+    margin-right: 10px;
+
+    margin-left: 10px;
+
+    font-weight: bold;
+
+}
+
+header button {
+
+    padding: 10px;
+
+    background-color: #F0F4F8;
+
+    color: #001f3f;
+
+    border: none;
+
+    margin: 0;
+
+}
+
+
+/* Feedback Form */
+
+.feedback {
+
+    background-color: white;
+
+    width: 70%;
+
+    margin: 40px auto;
+
+    padding: 30px;
+
+    box-shadow: 0 4px 10px rgb(0,0,0,0.1);
+
+}
+
+.feedback form {
+
+    width: 100%;
+
+}
+
+.feedback label {
+
+    font-weight: bold;
+
+    color: #001f3f;
+
+}
+
+.feedback input[type="text"],
+.feedback select {
+
+    width: 100%;
+
+    padding: 10px;
+
+    margin-top: 8px;
+
+    box-sizing: border-box;
+
+    border: 1px solid #aaa;
+
+}
+
+.feedback input[type="radio"] {
+
+    margin-left: 15px;
+
+}
+
+.feedback input[type="submit"],
+.feedback input[type="reset"] {
+
+    padding: 10px 20px;
+
+    border: none;
+
+    margin-right: 10px;
+
+    cursor: pointer;
+
+}
+
+.feedback input[type="submit"] {
+
+    background-color: #001f3f;
+
+    color: white;
+
+}
+
+.feedback input[type="reset"] {
+
+    background-color: #004b87;
+
+    color: white;
+
+}
+
+
+/* Dark Mode */
+
+.dark {
+
+    background-color: #121212;
+
+    color: white;
+
+}
+
+.dark header {
+
+    background-color: #000000;
+
+}
+
+.dark nav {
+
+    background-color: #1f1f1f;
+
+}
+
+.dark nav a {
+
+    color: white;
+
+}
+
+.dark .feedback {
+
+    background-color: #1e1e1e;
+
+    color: white;
+
+}
+
+.dark .feedback label {
+
+    color: white;
+
+}
+
+.dark .feedback input[type="text"],
+.dark .feedback select {
+
+    background-color: #333333;
+
+    color: white;
+
+    border: 1px solid #555555;
+
+}
+
+.dark .feedback input[type="submit"] {
+
+    background-color: #000000;
+
+    color: white;
+
+}
+
+.dark .feedback input[type="reset"] {
+
+    background-color: #333333;
+
+    color: white;
+
+}
+
+
+/* Responsive */
+
+@media (max-width: 600px) {
+
+    header {
+
+        padding: 20px;
+
+    }
+
+    header h1 {
+
+        font-size: 25px;
+
+    }
+
+    nav {
+
+        padding: 20px;
+
+    }
+
+    nav a {
+
+        display: block;
+
+        margin: 10px;
+
+    }
+
+    .feedback {
+
+        width: 80%;
+
+        padding: 20px;
+
+        margin: 25px auto;
+
+    }
+
+    .feedback input[type="radio"] {
+
+        margin-left: 5px;
+
+    }
+
+}
